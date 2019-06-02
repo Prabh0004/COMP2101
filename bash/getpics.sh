@@ -4,10 +4,8 @@
 # it only runs commands if they need to be run and only shows necessary output
 # it summarizes the Pictures directory when it is done
 #
-
 # Improve this script to also retrieve and install the files kept in the https://zonzorp.net/pics.tgz tarfile
 #   - use the same kind of testing to make sure commands work and delete the local copy of the tarfile when you are done with it
-
 # make a Pictures directory if we don't have one - assumes we have a home directory
 test -d ~/Pictures || mkdir ~/Pictures
 
